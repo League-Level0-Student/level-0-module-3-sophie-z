@@ -26,6 +26,11 @@ package modulo;
 **/
 
 public class FizzBuzz {
-
+public static void main(String[] args) {
+	if(1%3==0) {
+	}
+	}
 }
+}
+
 
