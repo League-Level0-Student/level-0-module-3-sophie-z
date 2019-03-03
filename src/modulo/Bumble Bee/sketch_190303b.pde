@@ -3,11 +3,16 @@ void draw() {
 Then put his head on using drawBeeFace(x,y)
 Use Modulo to make the colors alternate 
 */
-for(int i=0; i<15; i++){
-ellipse(300, 300, 50, 50);
-fill(#000000);
+for(int i=0; i<30; i++){
+  if(i%2==0){
+    fill(#FEFF00);
+  }
+  else{
+    fill(#000000);
+  }
+  ellipse(i*10, i*10, 50, 50);
 }
-drawBeeFace(310, 310);{
+drawBeeFace(305, 305);{
 }
 }
 
